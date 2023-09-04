@@ -1,0 +1,129 @@
+.basic-kandidat{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.heading-div{
+    display: flex;
+    position: relative;
+    bottom: -6em;
+}
+
+.heading-div > * {
+    flex: 1;
+  }
+  
+.candtext1{
+    margin: 0;
+    padding: 0;
+    line-height: 50%;
+    text-align: center;
+    margin-right: 40%;
+    margin-top: 100px;
+    position: relative;
+
+    /* animation: lightspeedinleft 1s ease-in-out forwards; */
+}
+
+@media (max-width:568px){
+  .candtext1{
+    left: 6em;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:568px){
+  .p1{
+    line-height: 1em;
+  }
+}
+
+.title1{
+  font-size:56px ;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.title1 .h1c{
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.subtitle1{
+    font-size: 30px;
+    font-family: "Google Sans Regular";
+    text-align: center;
+}
+
+/* img candidate */
+#bannercand {
+    transform: translateY(-9px);
+    width: 25%;
+    animation: bannercand 5s linear infinite;
+    position: absolute;
+    right: 6em;
+    top: 11em;
+  }
+
+  @media (max-width:768px){
+    #bannercand {
+        left: 29em;
+        bottom: 5em;
+
+    }
+  }
+
+  @media (max-width:568px){
+    #bannercand {
+        left: 13em;
+    }
+  }
+
+  @media (max-width:375px){
+    #bannercand {
+        left: 10em;
+        top: -6em;
+        position: relative;
+    }
+  }
+
+  @media (max-width:533px){
+    #bannercand{
+      bottom: 11em;
+    }
+  }
+
+  @keyframes bannercand {
+    0% {
+      transform: translateY(-10);
+      -ms-transform: translateY(-10);
+      -moz-transform: translateY(-10);
+    }
+  
+    25% {
+      transform: translateY(0px);
+      -ms-transform: translateY(0px);
+      -moz-transform: translateY(0px);
+    }
+  
+    75% {
+      transform: translateY(0px);
+      -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+    }
+  
+    100% {
+      transform: translateY(10);
+      -moz-transform: translateY(10);
+      -ms-transform: translateY(10);
+    }
+  }
+
+  .maincandidate{
+    position: relative;
+    bottom: 7em;
+  }

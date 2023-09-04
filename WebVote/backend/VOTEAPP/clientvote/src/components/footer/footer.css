@@ -1,0 +1,20 @@
+.footer-text {
+    text-align: center;
+    /* color: #868e96; */
+    font-weight: bold;
+    font-family: "Google Sans Regular";
+    color: black;
+  }
+  
+  .footer-div {
+    position: relative;
+    bottom: -10em;
+  }
+
+@media (max-width:768px){
+  .footer-div{
+    position: relative;
+    bottom: -21em;
+  }
+}
+  

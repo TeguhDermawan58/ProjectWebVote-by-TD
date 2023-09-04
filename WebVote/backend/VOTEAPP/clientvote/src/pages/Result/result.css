@@ -1,0 +1,39 @@
+/* result.css */
+.result-container {
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.candidate-list {
+  list-style: none;
+  padding: 0;
+}
+
+.candidate-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.candidate-name {
+  font-weight: bold;
+}
+
+.vote-count {
+  color: #555;
+}
+
+#voteChart {
+  margin-top: 20px;
+}

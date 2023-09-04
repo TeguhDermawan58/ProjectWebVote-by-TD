@@ -1,0 +1,39 @@
+/* CandidateForm.css */
+.form-container1 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container1 input,
+  .form-container1 textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container1 button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 480px) {
+    .form-container1 {
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
